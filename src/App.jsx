@@ -1,10 +1,14 @@
 import { useState } from 'react'
-
+import Main from './components/Main'
+import Footer from './components/Footer'
+import SideBar from './components/SideBar'
 
 function App() {
   return (
     <>
-      CR7
+      <SideBar/>
+      <Main/>
+      <Footer/>
     </>
   )
 }
