@@ -5,7 +5,7 @@ export default function SideBar() {
     <div>
         <h2>TEST</h2>
         <div>
-            <b>Description</b>
+            <b>Description </b>
             <p>This is a great deal</p>
         </div>
     </div>
