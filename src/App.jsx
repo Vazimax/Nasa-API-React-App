@@ -14,7 +14,7 @@ function App() {
 
   useEffect(() => {
     async function fetchAPIData() {
-      const NASA_KEY = process.env.REACT_APP_NASA_KEY;
+      const NASA_KEY = "bTo9wgtIexPjG3qkedI0qVvTrmVvbzjqgAGjNrYt" // Just take it I don't mind :(
       const url = `https://api.nasa.gov/planetary/apod?api_key=${NASA_KEY}`;
       const today = new Date().toISOString().split('T')[0];
       const localKey = `NASA-${today}`;
