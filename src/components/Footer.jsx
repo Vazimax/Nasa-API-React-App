@@ -1,13 +1,15 @@
 import React from 'react'
 
-export default function Footer() {
+export default function Footer(props) {
+  const {handleToggleModal, data} = props
   return (
     <footer>
+      <div className='bgGradient'></div>
       <div>
-        <h3>This is MARS Habibi</h3>
+        <h3>{data?.title}</h3>
         <h2>NASA API APP / BAKR</h2>
       </div>
-      <button>
+      <button onClick={handleToggleModal}>
             <i className="fa-solid fa-circle-info"></i>
         </button>
     </footer>
